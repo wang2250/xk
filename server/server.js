@@ -7,8 +7,6 @@ const static = require('./static');
 let server = new Koa();
 server.listen(8080);
 
-
-
 ejs(server,{
     root:path.resolve(__dirname,'template'),
     layout:false,
