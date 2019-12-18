@@ -19,7 +19,7 @@ module.exports = function(router,options){
     router.all(/(\.html)$/,static('./',{
         
     }));
-    router.all('*',static('./static/',{
+    router.all('*',static('./',{
         
     }));
 }
