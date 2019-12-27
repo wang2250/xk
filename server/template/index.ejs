@@ -10,14 +10,39 @@
 <link rel="shortcut icon" href="assets/xingke.ico">
 <link href="css/bundle.css" rel="stylesheet">
 <style>
-  
+  .beian{
+      width: 300px;
+      height: 20px;
+
+      position: absolute;
+margin-left: 50%;
+transform: translateX(-50px);
+      margin-top: -40px;
+
+  }
 </style>
 </head>
 <body>
     <div id="root"></div>
+    <div class="beian"><a href="http://www.beian.miit.gov.cn/">鲁ICP备19064999号</a></div>
      <script src="js/getscript">
      </script>
      <script src="js/api.js"></script>
     <script type="text/javascript" src="js/vendors.js">
-</script><script type="text/javascript" src="js/main.bundle.js"></script></body>
+</script><script type="text/javascript" src="js/main.bundle.js"></script>
+<script> 
+
+
+// window.onload = ()=>{
+//     let height = document.body.scrollWidth;
+//     console.log(height);
+//     height+= 40;
+//     console.log(height);
+// let beian = document.querySelector('.beian');
+// beian.style.bottom = -(height+  'px');
+   
+    
+// }
+</script>
+</body>
 </html>
