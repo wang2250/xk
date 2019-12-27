@@ -17,10 +17,16 @@ ejs(server,{
 
 let router = new Router();
 router.get('/', async ctx=>{
-    console.log('aa')
+
     await ctx.render('index',{
      
       });
+})
+router.post('/success', async ctx=>{
+
+   console.log(ctx.request.fields);
+   ctx.body = 'success';
+
 })
 static(router);//只要是文件结尾
 server.use(router.routes());

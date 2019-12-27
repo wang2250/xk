@@ -9,7 +9,7 @@ function submitconsume() {
   var form = new FormData(document.getElementById("feidianconsume"));
  
   $.ajax({
-    url: 'http://47.100.76.82:9001/success',
+    url: 'http://localhost:8080/success',
     type: "post",
     data: form,
     cache: false,
@@ -23,6 +23,7 @@ function submitconsume() {
       $("#submit").attr("disabled", "disabled"); // 禁用按钮防止重复提交
     },
     success: function (result) {
+      console.log(result);
       if (result) {
         $("#loading").empty(); //ajax返回成功，清除loading图标
        
@@ -46,5 +47,5 @@ function submitconsume() {
       $("#submit").removeAttr("disabled");
     },
   })
-  // return false;;
+  
 }
