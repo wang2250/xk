@@ -1,0 +1,37 @@
+{
+  "id": "1592856",
+  "name": "xk",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1511021",
+      "name": "程序",
+      "font_class": "chengxu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3552293",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6170868",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "7440203",
+      "name": "云",
+      "font_class": "yun",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
