@@ -22264,8 +22264,8 @@ a {
       display: flex;
       align-items: center; }
       .header .logo a img {
-        height: 50px;
-        width: 50px; }
+        height: 40px;
+        width: 150px; }
       .header .logo a font {
         font-size: 1.5rem;
         color: #1c2438; }
