@@ -13,6 +13,7 @@ body {
 :after,
 :before {
   box-sizing: border-box;
+ 
 }
 
 .header {
@@ -22,11 +23,13 @@ body {
   border-style: solid;
   border-color: #ddd;
   color: #666;
+  
 }
 
 .header a img {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
 }
 
 .header a {

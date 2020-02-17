@@ -9,7 +9,7 @@ function submitconsume() {
   var form = new FormData(document.getElementById("feidianconsume"));
  
   $.ajax({
-    url: 'http://localhost:8080/success',
+    url: 'http://iwyk.top/success',
     type: "post",
     data: form,
     cache: false,

@@ -24,7 +24,7 @@ router.get('/', async ctx=>{
 })
 router.post('/success', async ctx=>{
 
-   console.log(ctx.request.fields);
+
    ctx.body = 'success';
 
 })
