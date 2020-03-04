@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "738198",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "7450585",
+      "name": "H5",
+      "font_class": "H",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
       "icon_id": "7140587",
       "name": "邮箱",
       "font_class": "youxiang",
