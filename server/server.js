@@ -5,7 +5,7 @@ const Router = require('koa-router');
 const ejs = require('koa-ejs');
 const static = require('./static');
 let server = new Koa();
-server.listen(8080);
+server.listen(80);
 
 ejs(server,{
     root:path.resolve(__dirname,'template'),
